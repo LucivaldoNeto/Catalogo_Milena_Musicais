@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, white, rgba(166, 97, 245, 0.205));   
+}
+#principal{
+    width: 100%;   
+    
+}
+header{
+    margin-right: 45%;
+    margin-left: 45%;        
+}
+.logotipo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;            
+}
+.titulo h1{
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.titulo p{
+    font-size: 120%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;        
+}
+
+.galeria-titulo{
+    font-size: 100%;
+    margin-bottom: 7px;
+}
+.galeria-descrição{
+    font-size: 70%;
+    margin-bottom: 15px;
+
+}
+p{
+    padding: 10px;
+}
+.galeria-jogo-cordas{
+    padding: 10px 100px 0px 170px;
+    overflow: auto;     
+}
+.galeria-jogo-cordas img{
+    width: 90%;     
+}
+.galeria-imagem{
+    width: 30%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+.galeria-imagem:hover{
+    transform: scale(.95);
+    z-index: 2;
+}
+.galeria-cordas-avulsas{
+    padding: 10px 100px 30px 170px;
+    overflow: auto;
+}
+.galeria-cordas-avulsas img{
+    width: 90%;
+    text-align: center;
+}
+
+/*.galeria-cordas-avulsas{
+    padding: 20px 10px 30px 100px;
+    overflow: auto;   
+        
+}
+.galeria-cordas-avulsas img{
+    width: 90%;
+    padding: 10px;
+}*/
+.galeria-breu{
+    padding: 0px 100px 30px 170px;
+    overflow: auto;     
+    display: grid;
+    object-fit: cover;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 8vw);
+    grid-gap: 0px;
+    margin-bottom: -10px;        
+}
+.div-breu1{
+    width: 90%;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: center;
+    transition: .5s;   
+}
+.div-breu1:hover{
+    transform: scale(.95);
+    z-index: 2;
+}
+.div-breu2{
+    width: 90%;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    text-align: center; 
+    transition: .5s;   
+}
+.div-breu2:hover{
+    transform: scale(.95);
+    z-index: 2;
+}
+
+.breu-imagem{
+    width: 100%;
+}
+.galeria-acessorios{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0px 100px 50px 170px;
+}
+
+.galeria-acessorios1{
+    padding: 0px 100px 60px 170px;
+    overflow: auto;     
+    display: grid;
+    object-fit: cover;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 8vw);
+    grid-gap: 0px;    
+    margin-bottom: 1px;
+    transition: .5s;     
+}
+
+.galeria-acessorios img{
+    width: 90%;    
+}
+.galeria-acessorios-div1{
+    width: 90%;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: center;
+    margin-top: 5px;
+    transition: .5s;
+    margin-bottom: 5px; 
+}
+.galeria-acessorios-div1:hover{
+    transform: scale(.95);
+    z-index: 2;
+}
+.galeria-acessorios-div2{
+    width: 90%;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: .5s;  
+}
+.galeria-acessorios-div2:hover{
+    transform: scale(.95);
+    z-index: 2;
+}
+.galeria-acessorios1 img{
+    width: 100%;    
+}
+
+.contato address{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0 0px 0;
+    margin-bottom: -20px;    
+    line-height: 1.6;
+    font-style: normal;        
+    color: rgb(0, 0, 0);   
+    background-color: rgba(24, 0, 56, 0.171);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
+    border-top: 1px solid rgba(8, 7, 7, 0);          
+}
+footer{
+    text-align: center;    
+    padding: 10px;    
+    background-color:  rgb(24, 0, 56);
+    color: white;
+    letter-spacing: 1.5px;        
+}
+.logo-contato{
+    width: 1.5%;
+}
+.bandeiras-cartao{
+    width: 30%;
+    padding: 10px 0 0;
+    margin: -15px 0 0;   
+}
+.contato a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.5px;     
+}
+.contato a:hover{
+    color: rgb(63, 13, 128);
+}
+
+
+
