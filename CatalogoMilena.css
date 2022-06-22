@@ -246,7 +246,7 @@ footer{
         width: 90%;     
     }
     .galeria-imagem{
-        width: 30%;
+        width: 45%;
         float: left;
         text-align: center;
         transition: .5s;
@@ -272,21 +272,17 @@ footer{
         width: 90%;    
     }
     .galeria-breu{
-        padding: 10px 0 0 30px;
-        overflow: auto;     
-        display: grid;
-        object-fit: cover;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(4, 8vw);
-        grid-gap: 0px;
-        margin-bottom: -10px;        
+        width: 120%;
+        height: 120px;
+        margin: 10px 0px 20px -210px; 
+        padding: 10px 0px 200px -60px;
+        overflow: auto;                               
     }
     .div-breu1{
         width: 90%;
-        grid-column-start: 3;
-        grid-column-end: 6;
-        text-align: center;
-        transition: .5s;   
+        padding: 0 70px 0 5px;
+        transition: .5s;
+        margin-left: 0;   
     }
     .div-breu1:hover{
         transform: scale(.95);
@@ -294,9 +290,7 @@ footer{
     }
     .div-breu2{
         width: 90%;
-        grid-column-start: 6;
-        grid-column-end: 9;
-        text-align: center; 
+        padding: 0 70px 0 5px;         
         transition: .5s;   
     }
     .div-breu2:hover{
@@ -309,25 +303,18 @@ footer{
     }
         
     .galeria-acessorios1{
-        padding: 10px 0 0 30px;
-        overflow: auto;     
-        display: grid;
-        object-fit: cover;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(4, 8vw);
-        grid-gap: 0px;    
-        margin-bottom: 1px;
+        width: 120%;
+        height: 120px;
+        margin: -15px 0px -15px -205px; 
+        padding: 5px 0px 2px -60px;
+        overflow: auto;          
         transition: .5s;     
     }
         
     .galeria-acessorios-div1{
         width: 90%;
-        grid-column-start: 3;
-        grid-column-end: 6;
         text-align: center;
-        margin-top: 5px;
-        transition: .5s;
-        margin-bottom: 5px; 
+        transition: .5s;         
     }
     .galeria-acessorios-div1:hover{
         transform: scale(.95);
@@ -335,11 +322,7 @@ footer{
     }
     .galeria-acessorios-div2{
         width: 90%;
-        grid-column-start: 6;
-        grid-column-end: 9;
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        text-align: center;        
         transition: .5s;  
     }
     .galeria-acessorios-div2:hover{
