@@ -17,7 +17,8 @@ body{
 }
 header{
     margin-right: 45%;
-    margin-left: 45%;        
+    margin-left: 45%;
+    padding-top: 10px;        
 }
 .logotipo{
     width: 100%;
@@ -208,12 +209,12 @@ footer{
 @media screen and (max-width: 425px){           
         
     header{
-        margin: 10px 50px 10px 130px;
+        text-align: center;
+        padding-top: 10px;        
     }
     .logotipo{
         width: 70px;
         border-radius: 100%;
-
     }
     .titulo h1{
         font-size: 15px;
