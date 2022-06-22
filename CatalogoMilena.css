@@ -217,7 +217,7 @@ footer{
         border-radius: 100%;
     }
     .titulo h1{
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         text-transform: uppercase;
         text-decoration: underline;
@@ -225,18 +225,18 @@ footer{
         margin-bottom: 0;
     }
     .titulo p{
-        font-size: 1.0rem;
+        font-size: 1.2rem;
         text-align: center;
         margin-top: 1px;
         margin-bottom: 5px;        
     }
     
     .galeria-titulo{
-        font-size: .5rem;
+        font-size: 1.2rem;
         margin-bottom: 1px;
     }
     p{
-        padding: 5px;
+        padding: 7px;
     }
     .galeria-jogo-cordas{
         padding: 10px 0 0 30px;
