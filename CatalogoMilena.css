@@ -8,9 +8,8 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, white, rgba(166, 97, 245, 0.205));   
+    background-image: linear-gradient(to right, white, rgba(166, 97, 245, 0.205));    
 }
-
 #principal{
   width: 100%;   
     
@@ -173,7 +172,7 @@ p{
     text-decoration: none;
     padding: 10px 0 0px 0;
     margin-bottom: -20px;    
-    line-height: 2.0rem;
+    line-height: 2.5rem;
     font-style: normal;        
     color: rgb(0, 0, 0);   
     background-color: rgba(24, 0, 56, 0.171);
@@ -210,13 +209,7 @@ footer{
     *{
         margin: 0;
         padding: 0;
-    }
-    html{
-        width: 100%;
-    }
-    #principal{
-        width: 100%;
-    }    
+    }       
     header{
         text-align: center;
         padding-top: 10px;        
@@ -347,7 +340,7 @@ footer{
         text-decoration: none;
         padding: 3px 0 7px 0;
         margin-bottom: -20px;    
-        line-height: 1.5rem;
+        line-height: 2.0rem;
         font-style: normal;        
         color: rgb(0, 0, 0);   
         background-color: rgba(24, 0, 56, 0.171);
