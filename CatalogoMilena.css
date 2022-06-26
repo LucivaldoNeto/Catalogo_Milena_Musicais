@@ -186,7 +186,8 @@ footer{
     padding: 10px;    
     background-color:  rgb(24, 0, 56);
     color: white;
-    letter-spacing: 1.5px;        
+    letter-spacing: 1.8px;
+    font-size: 1.5rem;        
 }
 .logo-contato{
     width: 1.5%;
@@ -354,7 +355,8 @@ footer{
         padding: 10px;    
         background-color:  rgb(24, 0, 56);
         color: white;
-        letter-spacing: 1.5px;        
+        letter-spacing: 1.5px;
+        font-size: 1.2rem;        
     }
     .logo-contato{
         width: 4.5%;
