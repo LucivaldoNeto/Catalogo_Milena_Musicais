@@ -170,16 +170,16 @@ p{
 .contato address{
     text-align: center;
     text-decoration: none;
-    padding: 10px 0 0px 0;
+    padding: 5px 0 0px 0;
     margin-bottom: -20px;    
-    line-height: 2.5rem;
+    line-height: 3.0rem;
     font-style: normal;        
     color: rgb(0, 0, 0);   
     background-color: rgba(24, 0, 56, 0.171);
     border-bottom: 1px solid rgba(0, 0, 0, 0.466);
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
     border-top: 1px solid rgba(8, 7, 7, 0);
-    font-size: 1.4rem;          
+    font-size: 1.6rem;          
 }
 footer{
     text-align: center;    
@@ -193,8 +193,8 @@ footer{
 }
 .bandeiras-cartao{
     width: 30%;
-    padding: 10px 0 0;
-    margin: -15px 0 0;   
+    padding: 0px 0 0;
+    margin: -10px 0 0;   
 }
 .contato a{
     text-decoration: none;
@@ -339,15 +339,15 @@ footer{
         text-align: center;
         text-decoration: none;
         padding: 3px 0 7px 0;
-        margin-bottom: -20px;    
-        line-height: 2.0rem;
+        margin-bottom: -10px;    
+        line-height: 2.5rem;
         font-style: normal;        
         color: rgb(0, 0, 0);   
         background-color: rgba(24, 0, 56, 0.171);
         border-bottom: 1px solid rgba(0, 0, 0, 0.466);
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
         border-top: 1px solid rgba(8, 7, 7, 0);
-        font-size: 1.0rem;          
+        font-size: 1.4rem;          
     }
     footer{
         text-align: center;    
@@ -357,17 +357,19 @@ footer{
         letter-spacing: 1.5px;        
     }
     .logo-contato{
-        width: 2.5%;
+        width: 4.5%;
     }
     .bandeiras-cartao{
-        width: 50%;
-        padding: 10px 0 2px 0;
+        width: 60%;
+        padding: 0px 0 1px 0;
+        margin-top: 5px;
            
     }
     .contato a{
         text-decoration: none;
         color: black;
-        letter-spacing: 1.0px;     
+        letter-spacing: 1.5px;
+        line-height: 2.5px;     
     }
     .contato a:hover{
         color: rgb(63, 13, 128);
