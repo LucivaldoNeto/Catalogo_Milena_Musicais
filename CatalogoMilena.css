@@ -72,7 +72,6 @@ p{
 .galeria-cordas-avulsas img{
     width: 90%;    
 }
-
 /*.galeria-cordas-avulsas{
     padding: 20px 10px 30px 100px;
     overflow: auto;   
@@ -82,92 +81,7 @@ p{
     width: 90%;
     padding: 10px;
 }*/
-.galeria-breu{
-    padding: 0px 100px 30px 170px;
-    overflow: auto;     
-    display: grid;
-    object-fit: cover;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(3, 8vw);
-    grid-gap: 0px;
-    margin-bottom: -10px;        
-}
-.div-breu1{
-    width: 90%;
-    grid-column-start: 3;
-    grid-column-end: 6;
-    text-align: center;
-    transition: .5s;   
-}
-.div-breu1:hover{
-    transform: scale(.95);
-    z-index: 2;
-}
-.div-breu2{
-    width: 90%;
-    grid-column-start: 6;
-    grid-column-end: 9;
-    text-align: center; 
-    transition: .5s;   
-}
-.div-breu2:hover{
-    transform: scale(.95);
-    z-index: 2;
-}
 
-.breu-imagem{
-    width: 100%;
-}
-.galeria-acessorios{
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding: 0px 100px 50px 170px;
-}
-
-.galeria-acessorios1{
-    padding: 0px 100px 60px 170px;
-    overflow: auto;     
-    display: grid;
-    object-fit: cover;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(3, 8vw);
-    grid-gap: 0px;    
-    margin-bottom: 1px;
-    transition: .5s;     
-}
-
-.galeria-acessorios img{
-    width: 90%;    
-}
-.galeria-acessorios-div1{
-    width: 90%;
-    grid-column-start: 3;
-    grid-column-end: 6;
-    text-align: center;
-    margin-top: 5px;
-    transition: .5s;
-    margin-bottom: 5px; 
-}
-.galeria-acessorios-div1:hover{
-    transform: scale(.95);
-    z-index: 2;
-}
-.galeria-acessorios-div2{
-    width: 90%;
-    grid-column-start: 6;
-    grid-column-end: 9;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    transition: .5s;  
-}
-.galeria-acessorios-div2:hover{
-    transform: scale(.95);
-    z-index: 2;
-}
-.galeria-acessorios1 img{
-    width: 100%;    
-}
 
 .contato address{
     text-align: center;
@@ -211,10 +125,11 @@ footer{
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px){           
     *{
         margin: 0;
-        padding: 0;
+        padding: 0;        
     }
     html body{
         width: 100%;
+        height: 100%;
     }
     #principal{
         width: 100%;
@@ -284,9 +199,12 @@ footer{
     }
     .galeria-cordas-avulsas img{
         width: 90%;    
-    }   
+    }  
+    .contato{
+        width: 100%;
+    } 
     .contato address{
-        text-align: center;
+        text-align: center;        
         text-decoration: none;
         padding: 3px 0 7px 0;
         margin-bottom: -10px;    
@@ -322,6 +240,133 @@ footer{
         color: black;
         letter-spacing: 1.5px;
         line-height: 2.5px;     
+    }
+    .contato a:hover{
+        color: rgb(63, 13, 128);
+    }
+}
+@media screen and (min-device-width: 1026px) and (max-device-width: 2024px){           
+    *{
+        margin: 0;
+        padding: 0;        
+    }
+    html body{
+        width: 100%;
+        height: 100%;
+    }
+    #principal{
+        width: 100%;
+    }       
+    header{
+        /*text-align: center;*/
+        padding: 10px 60px 5px 75px;
+        margin: 0 50px 0 50px;      
+    }
+    .logotipo{
+        width: 20%;
+        text-align: center;
+        margin-left: 40%;
+        border-radius: 100%;
+    }
+    .titulo h1{
+        font-size: 2.9rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .titulo p{
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 5px;        
+    }
+    
+    .galeria-titulo{
+        font-size: 1.7rem;
+        margin-bottom: 1px;
+    }
+    p{
+        padding: 7px;
+    }
+    .galeria-jogo-cordas{
+        padding: 5px 5px 0 5px;
+        width: 100%;
+        overflow: auto;
+        display: inline-block;                
+    }
+    .galeria-imagem{
+        width: 35%;
+        display: inline-block;
+        padding: 10px;
+        margin-left: 9.2%;
+        float: left;
+        text-align: center;
+        transition: .5s;
+    }
+    .galeria-imagem:hover{
+        transform: scale(.95);
+        z-index: 2;
+    }
+    .galeria-acessorios{
+        padding: 5px 5px 0 5px;
+        width: 100%;
+        overflow: auto;
+        display: inline-block;  
+    }
+    .galeria-acessorios img{
+        width: 90%;
+    }
+    .galeria-cordas-avulsas{
+        padding: 5px 5px 0 5px;
+        width: 100%;
+        overflow: auto;
+        display: inline-block;  
+    }
+    .galeria-cordas-avulsas img{
+        width: 90%;    
+    }  
+    .contato{
+        width: 100%;
+    } 
+    .contato address{
+        text-align: center;        
+        text-decoration: none;
+        padding: 3px 0 7px 0;
+        margin-bottom: -10px;    
+        line-height: 2.0rem;
+        font-style: normal;        
+        color: rgb(0, 0, 0);   
+        background-color: rgba(24, 0, 56, 0.171);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+        background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
+        border-top: 1px solid rgba(8, 7, 7, 0);
+        font-size: 1.8rem;          
+    }
+    footer{
+        text-align: center;
+        width: 100%;    
+        padding: 10px;    
+        background-color:  rgb(24, 0, 56);
+        color: white;
+        letter-spacing: 1.5px;
+        font-size: 2.0rem;        
+    }
+    .logo-contato{
+        width: 2.0%;
+    }
+    .bandeiras-cartao{
+        width: 50%;
+        padding: -10px 0 -1px 0;
+        margin-top: 5px;
+           
+    }
+    .contato a{
+        text-decoration: none;
+        color: black;
+        letter-spacing: 1.2px;
+        line-height: 2.0px;     
     }
     .contato a:hover{
         color: rgb(63, 13, 128);
