@@ -8,6 +8,7 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
     background-image: linear-gradient(to right, white, rgba(166, 97, 245, 0.205));    
 }
 #principal{
@@ -206,18 +207,23 @@ footer{
     color: rgb(63, 13, 128);
 }
 
-@media screen and (min-device-width: 320px ) and (max-device-width: 1024px){           
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px){           
     *{
         margin: 0;
         padding: 0;
+    }
+    #principal{
+        width: 100%;
     }       
     header{
-        text-align: center;
-        padding-top: 10px;        
+        /*text-align: center;*/
+        padding: 10px 60px 5px 75px;
+        margin: 0 50px 0 50px;      
     }
     .logotipo{
         width: 70px;
         border-radius: 100%;
+        
     }
     .titulo h1{
         font-size: 20px;
@@ -242,11 +248,10 @@ footer{
         padding: 7px;
     }
     .galeria-jogo-cordas{
-        padding: 10px 0 0 30px;
-        overflow: auto;     
-    }
-    .galeria-jogo-cordas img{
-        width: 90%;     
+        padding: 5px 5px 0 5px;
+        width: 100%;
+        overflow: auto;
+        display: inline-block;                
     }
     .galeria-imagem{
         width: 45%;
@@ -259,83 +264,23 @@ footer{
         z-index: 2;
     }
     .galeria-acessorios{
-        padding: 10px 0 0 30px;
+        padding: 5px 5px 0 5px;
+        width: 100%;
         overflow: auto;
-        margin-bottom: 0;
-        margin-top: 0;
+        display: inline-block;  
     }
     .galeria-acessorios img{
         width: 90%;
     }
     .galeria-cordas-avulsas{
-        padding: 10px 0 5px 30px;
+        padding: 5px 5px 0 5px;
+        width: 100%;
         overflow: auto;
+        display: inline-block;  
     }
     .galeria-cordas-avulsas img{
         width: 90%;    
-    }
-    .galeria-breu{
-        width: 120%;
-        height: 140px;
-        margin: 10px 0px 20px -210px; 
-        padding: 10px 0px 200px -60px;
-        overflow: auto;                               
-    }
-    .div-breu1{
-        width: 90%;
-        padding: 0 70px 0 5px;
-        transition: .5s;
-        margin-left: 0;   
-    }
-    .div-breu1:hover{
-        transform: scale(.95);
-        z-index: 2;
-    }
-    .div-breu2{
-        width: 90%;
-        padding: 0 70px 0 5px;         
-        transition: .5s;   
-    }
-    .div-breu2:hover{
-        transform: scale(.95);
-        z-index: 2;
-    }
-    
-    .breu-imagem{
-        width: 100%;
-    }
-        
-    .galeria-acessorios1{
-        width: 120%;
-        height: 120px;
-        margin: -15px 0px -15px -205px; 
-        padding: 5px 0px 2px -60px;
-        overflow: auto;          
-        transition: .5s;     
-    }
-        
-    .galeria-acessorios-div1{
-        width: 90%;
-        text-align: center;
-        transition: .5s;         
-    }
-    .galeria-acessorios-div1:hover{
-        transform: scale(.95);
-        z-index: 2;
-    }
-    .galeria-acessorios-div2{
-        width: 90%;
-        text-align: center;        
-        transition: .5s;  
-    }
-    .galeria-acessorios-div2:hover{
-        transform: scale(.95);
-        z-index: 2;
-    }
-    .galeria-acessorios1 img{
-        width: 100%;    
-    }
-    
+    }   
     .contato address{
         text-align: center;
         text-decoration: none;
@@ -362,8 +307,8 @@ footer{
         width: 4.5%;
     }
     .bandeiras-cartao{
-        width: 60%;
-        padding: 0px 0 1px 0;
+        width: 50%;
+        padding: -10px 0 -1px 0;
         margin-top: 5px;
            
     }
