@@ -10,7 +10,7 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    background-image: linear-gradient(to left bottom, white, rgba(166, 97, 245, 0.205), transparent);    
+    background-image: linear-gradient(to right top, white, rgba(166, 97, 245, 0.205), transparent);    
 }
 #principal{
   width: 100%;   
@@ -300,7 +300,8 @@ footer{
         font-size: 1.4rem;          
     }
     footer{
-        text-align: center;    
+        text-align: center;
+        width: 100%;    
         padding: 10px;    
         background-color:  rgb(24, 0, 56);
         color: white;
