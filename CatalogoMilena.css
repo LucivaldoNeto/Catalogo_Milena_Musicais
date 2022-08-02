@@ -217,14 +217,14 @@ footer{
         text-decoration: none;
         padding: 3px 0 7px 0;
         margin-bottom: -10px;    
-        line-height: 2.5rem;
+        line-height: 2.0rem;
         font-style: normal;        
         color: rgb(0, 0, 0);   
         background-color: rgba(24, 0, 56, 0.171);
         border-bottom: 1px solid rgba(0, 0, 0, 0.466);
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
         border-top: 1px solid rgba(8, 7, 7, 0);
-        font-size: 1.4rem;          
+        font-size: 1.2rem;          
     }
     footer{
         text-align: center;
@@ -239,9 +239,9 @@ footer{
         width: 4.5%;
     }
     .bandeiras-cartao{
-        width: 50%;
-        padding: -10px 0 -1px 0;
-        margin-top: 5px;
+        width: 45%;
+        padding: -15px 0 -1px 0;
+        margin-top: 0px;
            
     }
     .contato a{
@@ -355,22 +355,24 @@ footer{
     } 
     .contato{
         width: 100%;
+        height: 10%;
+        padding: 1px;
     } 
-    .contato address{
+    .contato address{       
         text-align: center;        
         text-decoration: none;
         padding: 3px 0 7px 0;
         margin-bottom: -10px;    
-        line-height: 2.0rem;
+        line-height: 1.8rem;
         font-style: normal;        
         color: rgb(0, 0, 0);   
         background-color: rgba(24, 0, 56, 0.171);
         border-bottom: 1px solid rgba(0, 0, 0, 0.466);
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
         border-top: 1px solid rgba(8, 7, 7, 0);
-        font-size: 1.8rem;                                 
+        font-size: 1.5rem;                                 
     }
-    footer{
+    footer{        
         text-align: center;
         width: 100%;    
         padding: 10px;    
@@ -380,11 +382,11 @@ footer{
         font-size: 2.0rem;        
     }
     .logo-contato{
-        width: 2.0%;
+        width: 1.5%;
     }
     .bandeiras-cartao{
-        width: 50%;
-        padding: -10px 0 -1px 0;
+        width: 20%;
+        padding: -30px 0 -1px 0;
         margin-top: 5px;
            
     }
