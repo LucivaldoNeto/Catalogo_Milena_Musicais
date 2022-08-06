@@ -130,6 +130,7 @@ footer{
     html body{
         width: 100%;
         height: 100%;
+        box-sizing: border-box;
     }
     #principal{
         width: 100%;
@@ -234,7 +235,8 @@ footer{
         background-color:  rgb(24, 0, 56);
         color: white;
         letter-spacing: 1.5px;
-        font-size: 1.2rem;        
+        font-size: 1.2rem;
+        box-sizing: border-box;       
     }
     .logo-contato{
         width: 4.5%;
@@ -263,14 +265,17 @@ footer{
     html body{
         width: 100%;
         height: 100%;
+        box-sizing: border-box;
     }
     #principal{
         width: 100%;
+        box-sizing: border-box;
     }       
     header{
         /*text-align: center;*/
         padding: 10px 60px 5px 75px;
         margin: 0 50px 0 50px;
+        box-sizing: border-box;
     }
     .logotipo{
         width: 15%;
@@ -304,7 +309,8 @@ footer{
         padding: 5px 5px 0 5px;
         width: 100%;
         overflow: auto;
-        display: block;                
+        display: block;
+        box-sizing: border-box;                
     }
     .div-galeria-imagem{
         width: 69%;     
@@ -313,6 +319,7 @@ footer{
         text-align: center;
         transition: .5s;
         display: inline-block;
+        box-sizing: border-box;
 
     }
     .galeria-imagem{
@@ -331,7 +338,8 @@ footer{
         padding: 5px 5px 0 5px;
         width: 100%;        
         overflow: auto;
-        float: left;         
+        float: left;
+        box-sizing: border-box;         
     }
     .galeria-acessorios img{
         width: 90%;
@@ -343,7 +351,8 @@ footer{
         padding: 5px 5px 0 5px;
         width: 100%;
         overflow: auto;
-        display: inline-block;  
+        display: inline-block;
+        box-sizing: border-box;  
     }
     .galeria-cordas-avulsas img{
         width: 90%;    
@@ -352,12 +361,14 @@ footer{
         display: inline-block;
         padding: 5px 5px 0 5px;
         width: 100%;
+        box-sizing: border-box;
 
     } 
     .contato{
         width: 100%;
         height: 10%;
         padding: 1px;
+        box-sizing: border-box;
     } 
     .contato address{       
         text-align: center;        
@@ -371,7 +382,8 @@ footer{
         border-bottom: 1px solid rgba(0, 0, 0, 0.466);
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.89), rgba(24, 0, 56, 0.096));
         border-top: 1px solid rgba(8, 7, 7, 0);
-        font-size: 1.5rem;                                 
+        font-size: 1.5rem;
+        box-sizing: border-box;                                         
     }
     footer{        
         text-align: center;
@@ -380,7 +392,8 @@ footer{
         background-color:  rgb(24, 0, 56);
         color: white;
         letter-spacing: 1.5px;
-        font-size: 2.0rem;        
+        font-size: 2.0rem;
+        box-sizing: border-box;         
     }
     .logo-contato{
         width: 1.5%;
@@ -389,6 +402,7 @@ footer{
         width: 20%;
         padding: -30px 0 -1px 0;
         margin-top: 5px;
+        box-sizing: border-box;
            
     }
     .contato a{
