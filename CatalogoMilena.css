@@ -171,7 +171,8 @@ footer{
         padding: 5px 5px 0 5px;
         width: 100%;
         overflow: auto;
-        display: inline-block;                
+        display: inline-block;
+        box-sizing: border-box;                
     }
     .galeria-imagem{
         width: 45%;
